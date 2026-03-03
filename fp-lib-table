@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "DS3231 RTC")(type "KiCad")(uri "${KIPRJMOD}/DS3231 RTC.pretty")(options "")(descr ""))
+)
