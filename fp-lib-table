@@ -1,4 +1,6 @@
 (fp_lib_table
   (version 7)
   (lib (name "DS3231 RTC")(type "KiCad")(uri "${KIPRJMOD}/DS3231 RTC.pretty")(options "")(descr ""))
+  (lib (name "Custom Fuse")(type "KiCad")(uri "${KIPRJMOD}/Custom Fuse.pretty")(options "")(descr ""))
+  (lib (name "Standoffed Arduino R3pretty")(type "KiCad")(uri "${KIPRJMOD}/Standoffed Arduino R3pretty.pretty")(options "")(descr ""))
 )
