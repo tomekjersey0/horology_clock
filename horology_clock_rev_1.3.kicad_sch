@@ -4799,22 +4799,16 @@
 		(uuid "22a2816f-441b-4af1-8acc-ed3a9f42c67b")
 	)
 	(junction
-		(at 40.64 53.34)
+		(at 77.47 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "3ac2c2df-66a6-433e-8d11-fac10540eef6")
+		(uuid "7b5754cb-fdfa-4082-99cb-99c940263e78")
 	)
 	(junction
-		(at 48.26 53.34)
+		(at 69.85 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "63028a1c-59cc-4d32-89e9-453e9bcc8110")
-	)
-	(junction
-		(at 55.88 53.34)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8fa278d6-2667-4fb9-b5b6-36b9ee300e26")
+		(uuid "e8a92e00-7be9-4fe7-b210-78660c7b46bf")
 	)
 	(no_connect
 		(at 191.77 120.65)
@@ -4980,7 +4974,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 27.94) (xy 120.65 27.94)
+			(xy 125.73 27.94) (xy 127 27.94)
 		)
 		(stroke
 			(width 0)
@@ -5000,7 +4994,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 27.94) (xy 184.15 27.94)
+			(xy 189.23 27.94) (xy 190.5 27.94)
 		)
 		(stroke
 			(width 0)
@@ -5040,7 +5034,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 27.94) (xy 88.9 27.94)
+			(xy 93.98 27.94) (xy 95.25 27.94)
 		)
 		(stroke
 			(width 0)
@@ -5100,7 +5094,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 35.56) (xy 71.12 35.56)
+			(xy 76.2 35.56) (xy 77.47 35.56)
 		)
 		(stroke
 			(width 0)
@@ -5110,17 +5104,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 53.34) (xy 39.37 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4515786e-42d2-4f0e-911a-1c1711bd4b0d")
-	)
-	(wire
-		(pts
-			(xy 214.63 27.94) (xy 215.9 27.94)
+			(xy 220.98 27.94) (xy 222.25 27.94)
 		)
 		(stroke
 			(width 0)
@@ -5130,13 +5114,23 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 53.34) (xy 48.26 54.61)
+			(xy 69.85 54.61) (xy 69.85 53.34)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "52e7b7fb-91e9-4ee4-a226-309f9cee16fc")
+		(uuid "4837567b-6336-4e25-b988-51c9437c7616")
+	)
+	(wire
+		(pts
+			(xy 77.47 53.34) (xy 77.47 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "534d943b-4ed7-4bed-b5be-adbe835742ee")
 	)
 	(wire
 		(pts
@@ -5150,16 +5144,6 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 54.61) (xy 40.64 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "556f100d-4b30-4e11-94a5-1414647a6eb4")
-	)
-	(wire
-		(pts
 			(xy 36.83 143.51) (xy 24.13 143.51)
 		)
 		(stroke
@@ -5170,7 +5154,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 35.56) (xy 134.62 35.56)
+			(xy 139.7 35.56) (xy 140.97 35.56)
 		)
 		(stroke
 			(width 0)
@@ -5190,7 +5174,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 35.56) (xy 102.87 35.56)
+			(xy 107.95 35.56) (xy 109.22 35.56)
 		)
 		(stroke
 			(width 0)
@@ -5250,7 +5234,7 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 26.67) (xy 246.38 26.67)
+			(xy 251.46 27.94) (xy 252.73 27.94)
 		)
 		(stroke
 			(width 0)
@@ -5260,13 +5244,13 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 53.34) (xy 48.26 53.34)
+			(xy 85.09 54.61) (xy 85.09 53.34)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7fecdb5b-1be5-490e-afea-c7d5c3b4e502")
+		(uuid "7ee3117e-a072-4ef6-8500-4336efa67359")
 	)
 	(wire
 		(pts
@@ -5310,6 +5294,16 @@
 	)
 	(wire
 		(pts
+			(xy 69.85 53.34) (xy 77.47 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ecc985b-7311-426f-8ee2-c7dc1b39fa79")
+	)
+	(wire
+		(pts
 			(xy 36.83 135.89) (xy 36.83 143.51)
 		)
 		(stroke
@@ -5350,7 +5344,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 27.94) (xy 57.15 27.94)
+			(xy 62.23 27.94) (xy 63.5 27.94)
 		)
 		(stroke
 			(width 0)
@@ -5360,7 +5354,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 35.56) (xy 166.37 35.56)
+			(xy 171.45 35.56) (xy 172.72 35.56)
 		)
 		(stroke
 			(width 0)
@@ -5370,7 +5364,7 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 35.56) (xy 229.87 35.56)
+			(xy 234.95 35.56) (xy 236.22 35.56)
 		)
 		(stroke
 			(width 0)
@@ -5400,7 +5394,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 27.94) (xy 152.4 27.94)
+			(xy 157.48 27.94) (xy 158.75 27.94)
 		)
 		(stroke
 			(width 0)
@@ -5520,17 +5514,17 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 54.61) (xy 55.88 53.34)
+			(xy 69.85 53.34) (xy 68.58 53.34)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d4513eef-de91-4255-bf5a-c77a1d785bcc")
+		(uuid "d6875fdc-ccf3-409b-a38b-c3c02b95c3f3")
 	)
 	(wire
 		(pts
-			(xy 196.85 35.56) (xy 198.12 35.56)
+			(xy 203.2 35.56) (xy 204.47 35.56)
 		)
 		(stroke
 			(width 0)
@@ -5560,7 +5554,7 @@
 	)
 	(wire
 		(pts
-			(xy 259.08 34.29) (xy 260.35 34.29)
+			(xy 265.43 35.56) (xy 266.7 35.56)
 		)
 		(stroke
 			(width 0)
@@ -5587,16 +5581,6 @@
 			(type default)
 		)
 		(uuid "e612ef6a-6483-433e-a070-513381808259")
-	)
-	(wire
-		(pts
-			(xy 48.26 53.34) (xy 55.88 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e67ab913-d691-43e6-bbb4-0f04ef0eb9c2")
 	)
 	(wire
 		(pts
@@ -5640,6 +5624,16 @@
 	)
 	(wire
 		(pts
+			(xy 77.47 53.34) (xy 85.09 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f30d0141-7680-402b-b441-2ab7002bf11e")
+	)
+	(wire
+		(pts
 			(xy 59.69 189.23) (xy 46.99 189.23)
 		)
 		(stroke
@@ -5657,50 +5651,6 @@
 			(type default)
 		)
 		(uuid "ffcc49af-54e0-463c-8966-0bae1d9959fe")
-	)
-	(global_label "VIN_PROTECTED"
-		(shape input)
-		(at 162.56 27.94 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "04615864-9e72-4899-86f5-aa2b143d56f4")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 180.1804 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "VIN_RAW"
-		(shape input)
-		(at 245.11 26.67 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "04acfa9d-1957-4f68-8fff-de63a964de45")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 245.11 15.8833 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
 	)
 	(global_label "RTC_SDA"
 		(shape input)
@@ -5770,7 +5720,7 @@
 	)
 	(global_label "VIN_PROTECTED"
 		(shape input)
-		(at 31.75 53.34 180)
+		(at 251.46 27.94 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5778,9 +5728,9 @@
 			)
 			(justify right)
 		)
-		(uuid "0cc86dba-e1db-488e-bbfb-144c49b20ef2")
+		(uuid "0f303ba3-f2c1-433f-9baf-454b029b3aab")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 14.1296 53.34 0)
+			(at 233.8396 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5825,28 +5775,6 @@
 		(uuid "1982eff7-cab2-4733-8876-0da4e4afe6b9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 52.6967 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "VIN_RAW"
-		(shape input)
-		(at 87.63 27.94 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "199ed3cc-3342-4516-8eb0-c130eff8fbee")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 87.63 17.1533 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5944,28 +5872,6 @@
 			)
 		)
 	)
-	(global_label "VIN_PROTECTED"
-		(shape input)
-		(at 67.31 27.94 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "2abc7f53-121e-4d09-b1a9-526cf4b1f5e6")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 84.9304 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "MAX_CS"
 		(shape input)
 		(at 24.13 186.69 0)
@@ -5979,28 +5885,6 @@
 		(uuid "30b3c26e-faeb-48da-bef9-40268e2d104f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 34.3118 186.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "VIN_RAW"
-		(shape input)
-		(at 214.63 27.94 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "3261ad1f-ae4c-404d-a95c-70eda79d5af5")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 214.63 17.1533 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6032,6 +5916,28 @@
 			)
 		)
 	)
+	(global_label "VIN_PROTECTED"
+		(shape input)
+		(at 157.48 27.94 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3ef62739-500b-453b-92fc-25e536691c41")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 139.8596 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "MAX_CS"
 		(shape input)
 		(at 24.13 156.21 0)
@@ -6054,50 +5960,6 @@
 			)
 		)
 	)
-	(global_label "VIN_RAW"
-		(shape input)
-		(at 119.38 27.94 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "43dcfbaf-c55f-43fb-9e26-762cd98ce979")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 119.38 17.1533 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "VIN_PROTECTED"
-		(shape input)
-		(at 130.81 27.94 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "443e414b-b5f9-4b5c-aa6b-96c96d8fa604")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 148.4304 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "DOTS_DATA"
 		(shape input)
 		(at 100.33 92.71 0)
@@ -6111,28 +5973,6 @@
 		(uuid "49789cd4-5f7e-486c-9235-532ba1294d49")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 113.4752 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "VIN_PROTECTED"
-		(shape input)
-		(at 226.06 27.94 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "4c7701ae-fb81-4249-af29-260350b7c556")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 243.6804 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6186,50 +6026,6 @@
 			)
 		)
 	)
-	(global_label "VIN_PROTECTED"
-		(shape input)
-		(at 194.31 27.94 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "51e7d59a-2731-4eba-b119-750680b2f339")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 211.9304 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "VIN_RAW"
-		(shape input)
-		(at 55.88 27.94 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "51f6b5d8-2e14-45db-8304-b0375c7b47ea")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 55.88 17.1533 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "HEART_BEAT_DATA"
 		(shape input)
 		(at 107.95 151.13 0)
@@ -6274,28 +6070,6 @@
 			)
 		)
 	)
-	(global_label "VIN_PROTECTED"
-		(shape input)
-		(at 99.06 27.94 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "645bb288-22fd-4bd4-a582-d758bd8d0bff")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 116.6804 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "HEART_BEAT_DATA"
 		(shape input)
 		(at 100.33 85.09 0)
@@ -6309,6 +6083,28 @@
 		(uuid "65437264-09b4-4578-810e-6f55081c08fd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 119.9461 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VIN_PROTECTED"
+		(shape input)
+		(at 39.37 53.34 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7100be6c-6412-4d94-b0b7-144002194f39")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 56.9904 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6450,28 +6246,6 @@
 			)
 		)
 	)
-	(global_label "VIN_PROTECTED"
-		(shape input)
-		(at 256.54 26.67 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "89060496-5bd4-4b5d-b496-6c6e033a29fe")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 274.1604 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "RTC_SCL"
 		(shape input)
 		(at 147.32 147.32 180)
@@ -6582,24 +6356,24 @@
 			)
 		)
 	)
-	(global_label "VIN_RAW"
+	(global_label "VIN_PROTECTED"
 		(shape input)
-		(at 182.88 27.94 90)
+		(at 125.73 27.94 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
-		(uuid "9aeb6216-c418-4acf-a194-4f85f2eca0cb")
+		(uuid "9b189640-3700-4000-843f-136f6f27d108")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 182.88 17.1533 90)
+			(at 108.1096 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -6716,22 +6490,22 @@
 	)
 	(global_label "VIN_RAW"
 		(shape input)
-		(at 151.13 27.94 90)
+		(at 31.75 53.34 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
-		(uuid "adcf3b6b-bae8-4421-88b9-43f40391cb9d")
+		(uuid "b50fc4d9-6fc6-4e92-831b-e7c5ac1132c6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 151.13 17.1533 90)
+			(at 20.9633 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -6798,6 +6572,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VIN_PROTECTED"
+		(shape input)
+		(at 220.98 27.94 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c2ae052d-bb28-4017-9179-772ea9a72b55")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 203.3596 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -6978,6 +6774,50 @@
 			)
 		)
 	)
+	(global_label "VIN_PROTECTED"
+		(shape input)
+		(at 62.23 27.94 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e0b687d8-854f-4a20-b8c9-8ebd0336f14f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 44.6096 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VIN_PROTECTED"
+		(shape input)
+		(at 93.98 27.94 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e5c7d6b9-3942-4208-ae82-db35d42f488e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 76.3596 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "BINARY_DATA"
 		(shape input)
 		(at 139.7 87.63 180)
@@ -7062,6 +6902,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VIN_PROTECTED"
+		(shape input)
+		(at 189.23 27.94 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f5c9c40d-2d3e-4e6f-895c-007d3843167a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 171.6096 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -7368,6 +7230,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 232.41 27.94 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "065f58e3-969e-4099-81de-cdc096ae75de")
+		(property "Reference" "#PWR062"
+			(at 232.41 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 232.41 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 232.41 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 232.41 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 232.41 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bd1f6d89-5334-407c-b6af-e22a433efdcd")
+		)
+		(instances
+			(project "horology_clock_rev_1.3"
+				(path "/4236e7c5-3945-4051-89e8-80070fa9463d"
+					(reference "#PWR062")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 46.99 146.05 90)
 		(unit 1)
@@ -7434,7 +7362,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 129.54 35.56 90)
+		(at 135.89 35.56 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7442,7 +7370,7 @@
 		(dnp no)
 		(uuid "0b3a05b5-c5aa-4536-8bca-67d1d62e67da")
 		(property "Reference" "R7"
-			(at 129.54 33.528 90)
+			(at 135.89 33.528 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7450,7 +7378,7 @@
 			)
 		)
 		(property "Value" "100kΩ"
-			(at 129.54 37.846 90)
+			(at 135.89 37.846 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7458,7 +7386,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 129.54 37.338 90)
+			(at 135.89 37.338 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7467,7 +7395,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 129.54 35.56 0)
+			(at 135.89 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7476,7 +7404,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 129.54 35.56 0)
+			(at 135.89 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8053,7 +7981,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 134.62 35.56 0)
+		(at 140.97 35.56 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8062,7 +7990,7 @@
 		(fields_autoplaced yes)
 		(uuid "252a1e01-a34a-4f43-92ef-ee9aa3c74a61")
 		(property "Reference" "#PWR042"
-			(at 134.62 41.91 0)
+			(at 140.97 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8071,7 +7999,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 134.62 40.64 0)
+			(at 140.97 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8079,7 +8007,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 134.62 35.56 0)
+			(at 140.97 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8088,7 +8016,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 134.62 35.56 0)
+			(at 140.97 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8097,7 +8025,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 134.62 35.56 0)
+			(at 140.97 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8112,6 +8040,72 @@
 			(project "horology_clock_rev_1.3"
 				(path "/4236e7c5-3945-4051-89e8-80070fa9463d"
 					(reference "#PWR042")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 168.91 27.94 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "271dcc81-dd35-4b18-927f-4b270ef6763e")
+		(property "Reference" "#PWR060"
+			(at 168.91 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 168.91 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 168.91 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 168.91 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 168.91 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "42eb2cde-682e-4db5-8f15-91b7efdd3320")
+		)
+		(instances
+			(project "horology_clock_rev_1.3"
+				(path "/4236e7c5-3945-4051-89e8-80070fa9463d"
+					(reference "#PWR060")
 					(unit 1)
 				)
 			)
@@ -8183,7 +8177,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 260.35 34.29 0)
+		(at 266.7 35.56 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8192,7 +8186,7 @@
 		(fields_autoplaced yes)
 		(uuid "28ace495-e33d-46e9-a54c-569153741cb8")
 		(property "Reference" "#PWR052"
-			(at 260.35 40.64 0)
+			(at 266.7 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8201,7 +8195,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 260.35 39.37 0)
+			(at 266.7 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8209,7 +8203,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 260.35 34.29 0)
+			(at 266.7 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8218,7 +8212,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 260.35 34.29 0)
+			(at 266.7 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8227,7 +8221,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 260.35 34.29 0)
+			(at 266.7 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8476,6 +8470,72 @@
 			(project "horology_clock_rev_1.3"
 				(path "/4236e7c5-3945-4051-89e8-80070fa9463d"
 					(reference "H4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 262.89 27.94 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3280a638-cb5a-4780-8d05-a353eaca18ac")
+		(property "Reference" "#PWR063"
+			(at 262.89 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 262.89 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 262.89 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 262.89 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 262.89 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cfff59b4-ab9e-4586-be0b-4de2b11a375b")
+		)
+		(instances
+			(project "horology_clock_rev_1.3"
+				(path "/4236e7c5-3945-4051-89e8-80070fa9463d"
+					(reference "#PWR063")
 					(unit 1)
 				)
 			)
@@ -8944,7 +9004,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 102.87 35.56 0)
+		(at 109.22 35.56 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8953,7 +9013,7 @@
 		(fields_autoplaced yes)
 		(uuid "43a40178-7d1f-4c62-86a0-0d0f9f5c9034")
 		(property "Reference" "#PWR041"
-			(at 102.87 41.91 0)
+			(at 109.22 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8962,7 +9022,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 102.87 40.64 0)
+			(at 109.22 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8970,7 +9030,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 102.87 35.56 0)
+			(at 109.22 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8979,7 +9039,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 102.87 35.56 0)
+			(at 109.22 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8988,7 +9048,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 102.87 35.56 0)
+			(at 109.22 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9010,7 +9070,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 166.37 35.56 0)
+		(at 172.72 35.56 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9019,7 +9079,7 @@
 		(fields_autoplaced yes)
 		(uuid "46b458ff-729f-40e3-a7e5-28a657100485")
 		(property "Reference" "#PWR043"
-			(at 166.37 41.91 0)
+			(at 172.72 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9028,7 +9088,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 166.37 40.64 0)
+			(at 172.72 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9036,7 +9096,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 166.37 35.56 0)
+			(at 172.72 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9045,7 +9105,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 166.37 35.56 0)
+			(at 172.72 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9054,7 +9114,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 166.37 35.56 0)
+			(at 172.72 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9755,7 +9815,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 255.27 34.29 90)
+		(at 261.62 35.56 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9763,7 +9823,7 @@
 		(dnp no)
 		(uuid "69a5b0ff-2eeb-4650-97c8-2587a464b297")
 		(property "Reference" "R11"
-			(at 255.27 32.258 90)
+			(at 261.62 33.528 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9771,7 +9831,7 @@
 			)
 		)
 		(property "Value" "100kΩ"
-			(at 255.27 36.576 90)
+			(at 261.62 37.846 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9779,7 +9839,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 255.27 36.068 90)
+			(at 261.62 37.338 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9788,7 +9848,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 255.27 34.29 0)
+			(at 261.62 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9797,7 +9857,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 255.27 34.29 0)
+			(at 261.62 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9880,6 +9940,72 @@
 			(project "horology_clock_rev_1.3"
 				(path "/4236e7c5-3945-4051-89e8-80070fa9463d"
 					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 105.41 27.94 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7166b922-39af-4a7a-b49e-9b45da033475")
+		(property "Reference" "#PWR058"
+			(at 105.41 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 105.41 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 105.41 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 105.41 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 105.41 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f435e7f2-4206-4ac5-973f-ae8cfccc3342")
+		)
+		(instances
+			(project "horology_clock_rev_1.3"
+				(path "/4236e7c5-3945-4051-89e8-80070fa9463d"
+					(reference "#PWR058")
 					(unit 1)
 				)
 			)
@@ -10021,7 +10147,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 71.12 35.56 0)
+		(at 77.47 35.56 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10030,7 +10156,7 @@
 		(fields_autoplaced yes)
 		(uuid "809e47c2-67a7-47da-921f-febc5836ffd2")
 		(property "Reference" "#PWR039"
-			(at 71.12 41.91 0)
+			(at 77.47 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10039,7 +10165,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 71.12 40.64 0)
+			(at 77.47 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10047,7 +10173,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 71.12 35.56 0)
+			(at 77.47 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10056,7 +10182,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 71.12 35.56 0)
+			(at 77.47 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10065,7 +10191,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 71.12 35.56 0)
+			(at 77.47 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10087,7 +10213,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 224.79 35.56 90)
+		(at 231.14 35.56 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10095,7 +10221,7 @@
 		(dnp no)
 		(uuid "82aa4575-d3b7-4aa7-86bf-8c55921f8cb2")
 		(property "Reference" "R10"
-			(at 224.79 33.528 90)
+			(at 231.14 33.528 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10103,7 +10229,7 @@
 			)
 		)
 		(property "Value" "100kΩ"
-			(at 224.79 37.846 90)
+			(at 231.14 37.846 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10111,7 +10237,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 224.79 37.338 90)
+			(at 231.14 37.338 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10120,7 +10246,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 224.79 35.56 0)
+			(at 231.14 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10129,7 +10255,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 224.79 35.56 0)
+			(at 231.14 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10277,6 +10403,72 @@
 			(project "horology_clock_rev_1.3"
 				(path "/4236e7c5-3945-4051-89e8-80070fa9463d"
 					(reference "#PWR025")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 68.58 53.34 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8ad18deb-f349-4471-a557-2c23c9457b87")
+		(property "Reference" "#PWR064"
+			(at 68.58 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 68.58 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 68.58 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 68.58 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 68.58 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "51d46453-1b95-4059-9409-7c6c5cfdfe10")
+		)
+		(instances
+			(project "horology_clock_rev_1.3"
+				(path "/4236e7c5-3945-4051-89e8-80070fa9463d"
+					(reference "#PWR064")
 					(unit 1)
 				)
 			)
@@ -10555,7 +10747,7 @@
 	)
 	(symbol
 		(lib_id "Transistor_FET:IRF9540N")
-		(at 62.23 30.48 270)
+		(at 68.58 30.48 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10564,7 +10756,7 @@
 		(dnp no)
 		(uuid "932a1ac9-e28a-4d4a-bb17-bfabb1febfbe")
 		(property "Reference" "Q1"
-			(at 62.23 24.13 90)
+			(at 68.58 24.13 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10572,7 +10764,7 @@
 			)
 		)
 		(property "Value" "IRF9540N"
-			(at 62.23 21.59 90)
+			(at 68.58 21.59 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10580,7 +10772,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
-			(at 60.325 25.4 0)
+			(at 66.675 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10591,7 +10783,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.irf.com/product-info/datasheets/data/irf9540n.pdf"
-			(at 58.42 25.4 0)
+			(at 64.77 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10601,7 +10793,7 @@
 			)
 		)
 		(property "Description" "-23A Id, -100V Vds, 117mOhm Rds, P-Channel HEXFET Power MOSFET, TO-220"
-			(at 62.23 30.48 0)
+			(at 68.58 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10956,7 +11148,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 48.26 58.42 0)
+		(at 77.47 58.42 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10964,7 +11156,7 @@
 		(dnp no)
 		(uuid "a16a05e2-6d3c-47a3-b802-57872f156441")
 		(property "Reference" "C2"
-			(at 50.292 56.388 90)
+			(at 79.502 56.388 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10973,7 +11165,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 50.292 64.77 90)
+			(at 79.502 64.77 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10982,7 +11174,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 49.2252 62.23 0)
+			(at 78.4352 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10991,7 +11183,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 48.26 58.42 0)
+			(at 77.47 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11000,7 +11192,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 48.26 58.42 0)
+			(at 77.47 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11015,7 +11207,7 @@
 			(uuid "d7c7e12a-76c2-451c-82c5-6b39626607c0")
 		)
 		(instances
-			(project ""
+			(project "horology_clock_rev_1.3"
 				(path "/4236e7c5-3945-4051-89e8-80070fa9463d"
 					(reference "C2")
 					(unit 1)
@@ -11157,7 +11349,7 @@
 	)
 	(symbol
 		(lib_id "Transistor_FET:IRF9540N")
-		(at 157.48 30.48 270)
+		(at 163.83 30.48 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11166,7 +11358,7 @@
 		(dnp no)
 		(uuid "acb4704d-de1e-4e75-ab54-6acf92b0c3c1")
 		(property "Reference" "Q4"
-			(at 157.48 24.13 90)
+			(at 163.83 24.13 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11174,7 +11366,7 @@
 			)
 		)
 		(property "Value" "IRF9540N"
-			(at 157.48 21.59 90)
+			(at 163.83 21.59 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11182,7 +11374,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
-			(at 155.575 25.4 0)
+			(at 161.925 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11193,7 +11385,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.irf.com/product-info/datasheets/data/irf9540n.pdf"
-			(at 153.67 25.4 0)
+			(at 160.02 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11203,7 +11395,7 @@
 			)
 		)
 		(property "Description" "-23A Id, -100V Vds, 117mOhm Rds, P-Channel HEXFET Power MOSFET, TO-220"
-			(at 157.48 30.48 0)
+			(at 163.83 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11325,7 +11517,7 @@
 	)
 	(symbol
 		(lib_id "Transistor_FET:IRF9540N")
-		(at 93.98 30.48 270)
+		(at 100.33 30.48 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11334,7 +11526,7 @@
 		(dnp no)
 		(uuid "ad73e268-2eb0-47b0-8280-4880271e5d7c")
 		(property "Reference" "Q2"
-			(at 93.98 24.13 90)
+			(at 100.33 24.13 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11342,7 +11534,7 @@
 			)
 		)
 		(property "Value" "IRF9540N"
-			(at 93.98 21.59 90)
+			(at 100.33 21.59 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11350,7 +11542,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
-			(at 92.075 25.4 0)
+			(at 98.425 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11361,7 +11553,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.irf.com/product-info/datasheets/data/irf9540n.pdf"
-			(at 90.17 25.4 0)
+			(at 96.52 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11371,7 +11563,7 @@
 			)
 		)
 		(property "Description" "-23A Id, -100V Vds, 117mOhm Rds, P-Channel HEXFET Power MOSFET, TO-220"
-			(at 93.98 30.48 0)
+			(at 100.33 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11399,7 +11591,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 66.04 35.56 90)
+		(at 72.39 35.56 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11407,7 +11599,7 @@
 		(dnp no)
 		(uuid "ae4592eb-4a41-4caa-916b-c6eb747be2a9")
 		(property "Reference" "R5"
-			(at 66.04 33.528 90)
+			(at 72.39 33.528 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11415,7 +11607,7 @@
 			)
 		)
 		(property "Value" "100kΩ"
-			(at 66.04 37.846 90)
+			(at 72.39 37.846 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11423,7 +11615,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 66.04 37.338 90)
+			(at 72.39 37.338 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11432,7 +11624,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 66.04 35.56 0)
+			(at 72.39 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11441,7 +11633,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 66.04 35.56 0)
+			(at 72.39 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11599,7 +11791,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 48.26 62.23 0)
+		(at 77.47 62.23 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11608,7 +11800,7 @@
 		(fields_autoplaced yes)
 		(uuid "b82e9c09-0626-4f44-b3cc-49e3656584a4")
 		(property "Reference" "#PWR048"
-			(at 48.26 68.58 0)
+			(at 77.47 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11617,7 +11809,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 48.26 67.31 0)
+			(at 77.47 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11625,7 +11817,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 48.26 62.23 0)
+			(at 77.47 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11634,7 +11826,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 48.26 62.23 0)
+			(at 77.47 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11643,7 +11835,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 48.26 62.23 0)
+			(at 77.47 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11665,7 +11857,7 @@
 	)
 	(symbol
 		(lib_id "Transistor_FET:IRF9540N")
-		(at 125.73 30.48 270)
+		(at 132.08 30.48 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11674,7 +11866,7 @@
 		(dnp no)
 		(uuid "b8cdf71e-f45c-49f6-9cae-aa04471a07d4")
 		(property "Reference" "Q3"
-			(at 125.73 24.13 90)
+			(at 132.08 24.13 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11682,7 +11874,7 @@
 			)
 		)
 		(property "Value" "IRF9540N"
-			(at 125.73 21.59 90)
+			(at 132.08 21.59 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11690,7 +11882,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
-			(at 123.825 25.4 0)
+			(at 130.175 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11701,7 +11893,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.irf.com/product-info/datasheets/data/irf9540n.pdf"
-			(at 121.92 25.4 0)
+			(at 128.27 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11711,7 +11903,7 @@
 			)
 		)
 		(property "Description" "-23A Id, -100V Vds, 117mOhm Rds, P-Channel HEXFET Power MOSFET, TO-220"
-			(at 125.73 30.48 0)
+			(at 132.08 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11739,7 +11931,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 40.64 62.23 0)
+		(at 69.85 62.23 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11748,7 +11940,7 @@
 		(fields_autoplaced yes)
 		(uuid "bd72f0f2-c84c-4790-b526-1f2d893dacb9")
 		(property "Reference" "#PWR047"
-			(at 40.64 68.58 0)
+			(at 69.85 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11757,7 +11949,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 40.64 67.31 0)
+			(at 69.85 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11765,7 +11957,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 40.64 62.23 0)
+			(at 69.85 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11774,7 +11966,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 40.64 62.23 0)
+			(at 69.85 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11783,7 +11975,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 40.64 62.23 0)
+			(at 69.85 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11870,7 +12062,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 193.04 35.56 90)
+		(at 199.39 35.56 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11878,7 +12070,7 @@
 		(dnp no)
 		(uuid "bff05296-356a-4971-b377-8d910a75b8e2")
 		(property "Reference" "R9"
-			(at 193.04 33.528 90)
+			(at 199.39 33.528 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11886,7 +12078,7 @@
 			)
 		)
 		(property "Value" "100kΩ"
-			(at 193.04 37.846 90)
+			(at 199.39 37.846 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11894,7 +12086,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 193.04 37.338 90)
+			(at 199.39 37.338 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11903,7 +12095,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 193.04 35.56 0)
+			(at 199.39 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11912,7 +12104,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 193.04 35.56 0)
+			(at 199.39 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11936,8 +12128,74 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 73.66 27.94 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c46b0d68-d4be-4737-8650-6e0cbff6d270")
+		(property "Reference" "#PWR050"
+			(at 73.66 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 73.66 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 73.66 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 73.66 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 73.66 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c1efbee7-55f3-4086-8e7a-4a451a8fbee5")
+		)
+		(instances
+			(project "horology_clock_rev_1.3"
+				(path "/4236e7c5-3945-4051-89e8-80070fa9463d"
+					(reference "#PWR050")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Transistor_FET:IRF9540N")
-		(at 189.23 30.48 270)
+		(at 195.58 30.48 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11946,7 +12204,7 @@
 		(dnp no)
 		(uuid "c5735544-9a17-4d17-b1a5-dd8ee07b3d48")
 		(property "Reference" "Q5"
-			(at 189.23 24.13 90)
+			(at 195.58 24.13 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11954,7 +12212,7 @@
 			)
 		)
 		(property "Value" "IRF9540N"
-			(at 189.23 21.59 90)
+			(at 195.58 21.59 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11962,7 +12220,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
-			(at 187.325 25.4 0)
+			(at 193.675 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11973,7 +12231,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.irf.com/product-info/datasheets/data/irf9540n.pdf"
-			(at 185.42 25.4 0)
+			(at 191.77 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11983,7 +12241,7 @@
 			)
 		)
 		(property "Description" "-23A Id, -100V Vds, 117mOhm Rds, P-Channel HEXFET Power MOSFET, TO-220"
-			(at 189.23 30.48 0)
+			(at 195.58 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12152,6 +12410,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 137.16 27.94 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c9f9b782-6b5f-4d05-b882-a5308b7f1f83")
+		(property "Reference" "#PWR059"
+			(at 137.16 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 137.16 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 137.16 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 137.16 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 137.16 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0ad7cbce-d533-4faf-9f5d-bc8ceb604770")
+		)
+		(instances
+			(project "horology_clock_rev_1.3"
+				(path "/4236e7c5-3945-4051-89e8-80070fa9463d"
+					(reference "#PWR059")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 41.91 25.4 0)
 		(unit 1)
@@ -12284,7 +12608,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 55.88 62.23 0)
+		(at 85.09 62.23 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12293,7 +12617,7 @@
 		(fields_autoplaced yes)
 		(uuid "d2aa3598-268c-41e0-8011-f9123ac44201")
 		(property "Reference" "#PWR049"
-			(at 55.88 68.58 0)
+			(at 85.09 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12302,7 +12626,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 55.88 67.31 0)
+			(at 85.09 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12310,7 +12634,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 55.88 62.23 0)
+			(at 85.09 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12319,7 +12643,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 55.88 62.23 0)
+			(at 85.09 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12328,7 +12652,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 55.88 62.23 0)
+			(at 85.09 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12415,7 +12739,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Polarized_US")
-		(at 40.64 58.42 0)
+		(at 69.85 58.42 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12423,7 +12747,7 @@
 		(dnp no)
 		(uuid "dae757ab-012d-43ef-a49f-1101abee4265")
 		(property "Reference" "C1"
-			(at 43.18 56.388 90)
+			(at 72.39 56.388 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12432,7 +12756,7 @@
 			)
 		)
 		(property "Value" "1000uF"
-			(at 43.18 67.31 90)
+			(at 72.39 67.31 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12441,7 +12765,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:CP_Radial_D8.0mm_P3.80mm"
-			(at 40.64 58.42 0)
+			(at 69.85 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12450,7 +12774,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 40.64 58.42 0)
+			(at 69.85 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12459,7 +12783,7 @@
 			)
 		)
 		(property "Description" "Polarized capacitor, US symbol"
-			(at 40.64 58.42 0)
+			(at 69.85 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12474,7 +12798,7 @@
 			(uuid "d1628316-31a4-43b1-8646-7533e928735d")
 		)
 		(instances
-			(project ""
+			(project "horology_clock_rev_1.3"
 				(path "/4236e7c5-3945-4051-89e8-80070fa9463d"
 					(reference "C1")
 					(unit 1)
@@ -12761,7 +13085,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 161.29 35.56 90)
+		(at 167.64 35.56 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12769,7 +13093,7 @@
 		(dnp no)
 		(uuid "df3ebdd0-efee-410e-aac0-b6893aa38a7e")
 		(property "Reference" "R8"
-			(at 161.29 33.528 90)
+			(at 167.64 33.528 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12777,7 +13101,7 @@
 			)
 		)
 		(property "Value" "100kΩ"
-			(at 161.29 37.846 90)
+			(at 167.64 37.846 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12785,7 +13109,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 161.29 37.338 90)
+			(at 167.64 37.338 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12794,7 +13118,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 161.29 35.56 0)
+			(at 167.64 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12803,7 +13127,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 161.29 35.56 0)
+			(at 167.64 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12828,7 +13152,7 @@
 	)
 	(symbol
 		(lib_id "Transistor_FET:IRF9540N")
-		(at 251.46 29.21 270)
+		(at 257.81 30.48 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12837,7 +13161,7 @@
 		(dnp no)
 		(uuid "e4081a81-4ba7-4d93-b8d7-e6ee06f80f0a")
 		(property "Reference" "Q7"
-			(at 251.46 22.86 90)
+			(at 257.81 24.13 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12845,7 +13169,7 @@
 			)
 		)
 		(property "Value" "IRF9540N"
-			(at 251.46 20.32 90)
+			(at 257.81 21.59 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12853,7 +13177,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
-			(at 249.555 24.13 0)
+			(at 255.905 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12864,7 +13188,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.irf.com/product-info/datasheets/data/irf9540n.pdf"
-			(at 247.65 24.13 0)
+			(at 254 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12874,7 +13198,7 @@
 			)
 		)
 		(property "Description" "-23A Id, -100V Vds, 117mOhm Rds, P-Channel HEXFET Power MOSFET, TO-220"
-			(at 251.46 29.21 0)
+			(at 257.81 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13128,7 +13452,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 198.12 35.56 0)
+		(at 204.47 35.56 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13137,7 +13461,7 @@
 		(fields_autoplaced yes)
 		(uuid "ebc96a69-f138-40f0-8e36-6547826d9991")
 		(property "Reference" "#PWR044"
-			(at 198.12 41.91 0)
+			(at 204.47 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13146,7 +13470,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 198.12 40.64 0)
+			(at 204.47 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13154,7 +13478,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 198.12 35.56 0)
+			(at 204.47 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13163,7 +13487,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 198.12 35.56 0)
+			(at 204.47 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13172,7 +13496,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 198.12 35.56 0)
+			(at 204.47 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13258,7 +13582,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 55.88 58.42 0)
+		(at 85.09 58.42 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13266,7 +13590,7 @@
 		(dnp no)
 		(uuid "eeb59ebc-b78f-4dda-af8b-a2ddb3dc0e03")
 		(property "Reference" "C3"
-			(at 57.912 56.388 90)
+			(at 87.122 56.388 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13275,7 +13599,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 58.166 66.04 90)
+			(at 87.376 66.04 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13284,7 +13608,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 56.8452 62.23 0)
+			(at 86.0552 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13293,7 +13617,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 55.88 58.42 0)
+			(at 85.09 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13302,7 +13626,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 55.88 58.42 0)
+			(at 85.09 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13458,7 +13782,7 @@
 	)
 	(symbol
 		(lib_id "Transistor_FET:IRF9540N")
-		(at 220.98 30.48 270)
+		(at 227.33 30.48 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13467,7 +13791,7 @@
 		(dnp no)
 		(uuid "f06ead99-d2a1-4379-8028-faa1ee0d38e5")
 		(property "Reference" "Q6"
-			(at 220.98 24.13 90)
+			(at 227.33 24.13 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13475,7 +13799,7 @@
 			)
 		)
 		(property "Value" "IRF9540N"
-			(at 220.98 21.59 90)
+			(at 227.33 21.59 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13483,7 +13807,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
-			(at 219.075 25.4 0)
+			(at 225.425 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13494,7 +13818,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.irf.com/product-info/datasheets/data/irf9540n.pdf"
-			(at 217.17 25.4 0)
+			(at 223.52 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13504,7 +13828,7 @@
 			)
 		)
 		(property "Description" "-23A Id, -100V Vds, 117mOhm Rds, P-Channel HEXFET Power MOSFET, TO-220"
-			(at 220.98 30.48 0)
+			(at 227.33 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13531,8 +13855,74 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 200.66 27.94 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f1b28d92-7b4e-44f6-90fd-8822caec00a3")
+		(property "Reference" "#PWR061"
+			(at 200.66 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 200.66 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 200.66 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 200.66 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 200.66 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "103a4aed-385a-4851-bd71-3b333b986851")
+		)
+		(instances
+			(project "horology_clock_rev_1.3"
+				(path "/4236e7c5-3945-4051-89e8-80070fa9463d"
+					(reference "#PWR061")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
-		(at 97.79 35.56 90)
+		(at 104.14 35.56 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13540,7 +13930,7 @@
 		(dnp no)
 		(uuid "f545a2a7-2748-4481-a982-09968dac6835")
 		(property "Reference" "R6"
-			(at 97.79 33.528 90)
+			(at 104.14 33.528 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13548,7 +13938,7 @@
 			)
 		)
 		(property "Value" "100kΩ"
-			(at 97.79 37.846 90)
+			(at 104.14 37.846 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13556,7 +13946,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 97.79 37.338 90)
+			(at 104.14 37.338 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13565,7 +13955,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 97.79 35.56 0)
+			(at 104.14 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13574,7 +13964,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 97.79 35.56 0)
+			(at 104.14 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13660,72 +14050,6 @@
 			(project "horology_clock_rev_1.3"
 				(path "/4236e7c5-3945-4051-89e8-80070fa9463d"
 					(reference "J5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 55.88 53.34 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f9b535f3-4348-447d-a755-50d3c6fa074e")
-		(property "Reference" "#PWR050"
-			(at 55.88 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 55.88 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 55.88 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 55.88 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 55.88 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "437b5fa2-b3a6-4e33-a7c0-8429c1f3bcf8")
-		)
-		(instances
-			(project "horology_clock_rev_1.3"
-				(path "/4236e7c5-3945-4051-89e8-80070fa9463d"
-					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -14068,7 +14392,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 229.87 35.56 0)
+		(at 236.22 35.56 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14077,7 +14401,7 @@
 		(fields_autoplaced yes)
 		(uuid "fe79680f-ce23-4e12-b032-ed7e96d7841b")
 		(property "Reference" "#PWR051"
-			(at 229.87 41.91 0)
+			(at 236.22 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14086,7 +14410,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 229.87 40.64 0)
+			(at 236.22 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14094,7 +14418,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 229.87 35.56 0)
+			(at 236.22 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14103,7 +14427,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 229.87 35.56 0)
+			(at 236.22 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14112,7 +14436,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 229.87 35.56 0)
+			(at 236.22 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
