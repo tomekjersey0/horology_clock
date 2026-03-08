@@ -302,7 +302,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector_Generic:Conn_01x02"
+		(symbol "Connector_Generic:Conn_01x01"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -318,8 +318,8 @@
 					)
 				)
 			)
-			(property "Value" "Conn_01x02"
-				(at 0 -5.08 0)
+			(property "Value" "Conn_01x01"
+				(at 0 -2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -344,7 +344,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
 				(at 0 0 0)
 				(effects
 					(font
@@ -371,10 +371,10 @@
 					(hide yes)
 				)
 			)
-			(symbol "Conn_01x02_1_1"
+			(symbol "Conn_01x01_1_1"
 				(rectangle
 					(start -1.27 1.27)
-					(end 1.27 -3.81)
+					(end 1.27 -1.27)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -386,17 +386,6 @@
 				(rectangle
 					(start -1.27 0.127)
 					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 -2.413)
-					(end 0 -2.667)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -423,8 +412,143 @@
 						)
 					)
 				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Connector_Generic:Conn_01x03"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x03"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x03_1_1"
+				(rectangle
+					(start -1.27 3.81)
+					(end 1.27 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(pin passive line
-					(at -5.08 -2.54 0)
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
 					(length 3.81)
 					(name "Pin_2"
 						(effects
@@ -434,6 +558,24 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5466,6 +5608,16 @@
 	)
 	(wire
 		(pts
+			(xy 147.32 182.88) (xy 147.32 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62eb12d5-4af1-4293-8e2c-d6b50f89b7ed")
+	)
+	(wire
+		(pts
 			(xy 139.7 35.56) (xy 140.97 35.56)
 		)
 		(stroke
@@ -5843,6 +5995,16 @@
 			(type default)
 		)
 		(uuid "d722f31e-0b19-4967-ac74-44b87b43c882")
+	)
+	(wire
+		(pts
+			(xy 147.32 180.34) (xy 149.86 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d801f853-0b97-4c2a-af28-7d635a3188b7")
 	)
 	(wire
 		(pts
@@ -6330,7 +6492,7 @@
 	)
 	(global_label "BINARY_DATA"
 		(shape input)
-		(at 107.95 148.59 0)
+		(at 105.41 146.05 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6340,7 +6502,7 @@
 		)
 		(uuid "4fe3a27d-a97d-4255-b8e0-c3d3957719fe")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 122.9701 148.59 0)
+			(at 120.4301 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6363,28 +6525,6 @@
 		(uuid "550fbe53-9133-468d-8f13-131d4cef629b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 240.5961 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "HEART_BEAT_DATA"
-		(shape input)
-		(at 107.95 143.51 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "5cc77a0e-f1d7-4c0c-a115-6a68cf529050")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 127.5661 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6660,7 +6800,7 @@
 	)
 	(global_label "7SEG_DATA"
 		(shape input)
-		(at 107.95 151.13 0)
+		(at 105.41 142.24 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6670,7 +6810,7 @@
 		)
 		(uuid "9a69b129-6d65-4495-b5be-01e3c5c565fd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 121.1556 151.13 0)
+			(at 118.6156 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6812,6 +6952,28 @@
 			)
 		)
 	)
+	(global_label "HEART_BEAT_DATA"
+		(shape input)
+		(at 147.32 185.42 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "addad93f-fa27-4bf8-84a8-128701050325")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 166.9361 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "VIN_RAW"
 		(shape input)
 		(at 31.75 53.34 180)
@@ -6924,7 +7086,7 @@
 	)
 	(global_label "DOTS_DATA"
 		(shape input)
-		(at 107.95 146.05 0)
+		(at 105.41 138.43 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6934,7 +7096,7 @@
 		)
 		(uuid "c6161e1e-ae65-4262-a3ee-5d1a21073ed9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 121.0952 146.05 0)
+			(at 118.5552 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7997,74 +8159,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
-		(at 142.24 180.34 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "198dedcb-b7cf-4f55-8797-0a3582d24892")
-		(property "Reference" "J12"
-			(at 142.24 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x02"
-			(at 142.24 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
-			(at 142.24 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 142.24 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 142.24 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6568d08c-605a-49f0-b44b-ed2f70538fd2")
-		)
-		(pin "2"
-			(uuid "4e2f1a75-16e0-4dc2-b062-bdcf3a37d523")
-		)
-		(instances
-			(project "horology_clock_rev_1.3"
-				(path "/4236e7c5-3945-4051-89e8-80070fa9463d"
-					(reference "J12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:Screw_Terminal_01x02")
 		(at 36.83 22.86 0)
 		(mirror y)
@@ -8127,6 +8221,76 @@
 			(project "horology_clock_rev_1.3"
 				(path "/4236e7c5-3945-4051-89e8-80070fa9463d"
 					(reference "J7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x03")
+		(at 142.24 180.34 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1cf9c04d-06fa-4a1e-bdb6-5b66b61ed10c")
+		(property "Reference" "J9"
+			(at 142.24 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x03"
+			(at 142.24 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Horizontal"
+			(at 142.24 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 142.24 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 142.24 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3a6bbe57-cf92-467f-abeb-306c01214c51")
+		)
+		(pin "3"
+			(uuid "b5bf8aac-c836-4d6e-beed-1a5770284b03")
+		)
+		(pin "1"
+			(uuid "282c4c5b-ef6e-4d82-bdec-3ab484a75737")
+		)
+		(instances
+			(project ""
+				(path "/4236e7c5-3945-4051-89e8-80070fa9463d"
+					(reference "J9")
 					(unit 1)
 				)
 			)
@@ -12505,6 +12669,70 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 100.33 142.24 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b116119c-f308-4647-b451-d53b9ef38a06")
+		(property "Reference" "J16"
+			(at 85.09 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01"
+			(at 92.71 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Horizontal"
+			(at 100.33 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 100.33 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 100.33 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "37730891-64eb-434a-874b-e7280a1ec2fe")
+		)
+		(instances
+			(project "horology_clock_rev_1.3"
+				(path "/4236e7c5-3945-4051-89e8-80070fa9463d"
+					(reference "J16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 87.63 87.63 270)
 		(unit 1)
@@ -13128,7 +13356,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 147.32 180.34 0)
+		(at 149.86 180.34 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13136,7 +13364,7 @@
 		(dnp no)
 		(uuid "c9ecaf4e-aed5-4b51-8718-9f4ed248ac0d")
 		(property "Reference" "#PWR046"
-			(at 147.32 186.69 0)
+			(at 149.86 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13145,7 +13373,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 150.622 182.118 0)
+			(at 153.162 182.118 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13153,7 +13381,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 147.32 180.34 0)
+			(at 149.86 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13162,7 +13390,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 147.32 180.34 0)
+			(at 149.86 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13171,7 +13399,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 147.32 180.34 0)
+			(at 149.86 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13514,6 +13742,70 @@
 			(project "horology_clock_rev_1.3"
 				(path "/4236e7c5-3945-4051-89e8-80070fa9463d"
 					(reference "#PWR021")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 100.33 138.43 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d897a64f-bd2d-47b3-ae65-e8ef346709b8")
+		(property "Reference" "J15"
+			(at 85.09 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01"
+			(at 92.71 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Horizontal"
+			(at 100.33 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 100.33 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 100.33 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "92f2b83f-5612-445a-a064-bb6b5a596dcb")
+		)
+		(instances
+			(project "horology_clock_rev_1.3"
+				(path "/4236e7c5-3945-4051-89e8-80070fa9463d"
+					(reference "J15")
 					(unit 1)
 				)
 			)
@@ -14969,33 +15261,32 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x04")
-		(at 102.87 146.05 0)
-		(mirror y)
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 100.33 146.05 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "fc2620a2-b36a-4726-9a59-99c689b58fa4")
-		(property "Reference" "J9"
-			(at 102.87 157.48 0)
+		(uuid "fc55536c-f809-452f-aad4-40235d9bdac3")
+		(property "Reference" "J17"
+			(at 85.09 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "Conn_01x04"
-			(at 102.87 154.94 0)
+		(property "Value" "Conn_01x01"
+			(at 92.71 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
-			(at 102.87 146.05 0)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Horizontal"
+			(at 100.33 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15004,7 +15295,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 102.87 146.05 0)
+			(at 100.33 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15012,31 +15303,22 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 102.87 146.05 0)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 100.33 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "2"
-			(uuid "dd109098-f87d-4131-943d-dbd13cc17857")
-		)
-		(pin "3"
-			(uuid "3e0bcaa1-b39e-4f62-9692-ea35efe61e16")
-		)
-		(pin "4"
-			(uuid "a9682253-23a7-4ca2-82d4-c39db46abca6")
 		)
 		(pin "1"
-			(uuid "a0255d71-c9a9-45ea-a829-aff3e940874e")
+			(uuid "e82ff214-e2b7-45aa-b52f-509832751cbd")
 		)
 		(instances
-			(project ""
+			(project "horology_clock_rev_1.3"
 				(path "/4236e7c5-3945-4051-89e8-80070fa9463d"
-					(reference "J9")
+					(reference "J17")
 					(unit 1)
 				)
 			)
