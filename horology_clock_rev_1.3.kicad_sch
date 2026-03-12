@@ -5197,17 +5197,6 @@
 		)
 		(uuid "acdd7ba5-4cd6-4d48-8c1b-0047f21d6d66")
 	)
-	(text "Real R_DS(on) may be higher at 5V than at standard 10V, so this should be \nmeasured before locking number of MOSFETS used"
-		(exclude_from_sim no)
-		(at 54.61 14.732 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "bda13949-e230-4bed-8e67-0221adf66c25")
-	)
 	(text "MAX MODULE CHAIN"
 		(exclude_from_sim no)
 		(at 26.162 98.298 0)
@@ -5217,17 +5206,6 @@
 			)
 		)
 		(uuid "bf6b57b0-6de5-4212-ab8a-822f900047c6")
-	)
-	(text "Fuse footprint seems fine but a \nlaser cut + physical check would be needed!"
-		(exclude_from_sim no)
-		(at 29.972 45.466 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "e7fb2a2b-03c5-494d-a026-ec84cbb60031")
 	)
 	(text "Power Indicator LED"
 		(exclude_from_sim no)
