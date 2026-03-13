@@ -22471,6 +22471,7 @@
 		(property "Reference" "A1"
 			(at 2.67 -19.377349 0)
 			(layer "B.SilkS")
+			(hide yes)
 			(uuid "61b7c015-e8ae-44f2-a8ce-9d99e673c1f3")
 			(effects
 				(font
@@ -24282,6 +24283,7 @@
 		(property "Reference" "J14"
 			(at -2.135 -3.13 0)
 			(layer "B.SilkS")
+			(hide yes)
 			(uuid "608f30c5-2af5-4fcd-9af6-c219fbe969e6")
 			(effects
 				(font
@@ -24628,6 +24630,7 @@
 		(property "Reference" "J10"
 			(at -2.29 -2.83 180)
 			(layer "B.SilkS")
+			(hide yes)
 			(uuid "87a62fd0-08bd-4c53-8a15-61c3e43146e6")
 			(effects
 				(font
@@ -24952,6 +24955,7 @@
 		(property "Reference" "J6"
 			(at 2.55 -2.61 0)
 			(layer "B.SilkS")
+			(hide yes)
 			(uuid "372ac80d-033f-4f8b-ae28-e091f4f4dc5b")
 			(effects
 				(font
@@ -25613,54 +25617,6 @@
 				(thickness 0.1)
 			)
 			(justify left bottom)
-		)
-	)
-	(gr_text "J8"
-		(at 143.75 90.95 0)
-		(layer "B.SilkS")
-		(uuid "296ca612-412d-49c4-9f08-503c5b95e9de")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-			(justify left bottom mirror)
-		)
-	)
-	(gr_text "REV A - It works (probably)\nMarch 2026\nVictoria College"
-		(at 87.4 55.975 0)
-		(layer "B.SilkS")
-		(uuid "7daa2ef6-9cb1-4210-964b-a23733531696")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.1)
-			)
-			(justify right top mirror)
-		)
-	)
-	(gr_text "https://github.com/tomekjersey0/horology_clock"
-		(at 87 77.615 0)
-		(layer "B.SilkS")
-		(uuid "9092e9f4-5b3d-46b8-b10a-1694c5c6b400")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.1)
-			)
-			(justify right top mirror)
-		)
-	)
-	(gr_text "ARDUNIO UNO R3"
-		(at 161.35 112.875 0)
-		(layer "B.SilkS")
-		(uuid "a2b809c8-2997-49e6-bce6-b7cd87b1aa76")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-			(justify left bottom mirror)
 		)
 	)
 	(gr_text "05/03/2026"
